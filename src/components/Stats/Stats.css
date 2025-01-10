@@ -1,0 +1,36 @@
+.stats-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+  
+  .stats-summary {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
